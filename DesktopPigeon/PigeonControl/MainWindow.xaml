@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PigeonControl"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Desktop Pigeon" Height="450" Width="800"
+        AllowsTransparency="True"
+        WindowStyle="None">
+    <Window.Background>
+        <SolidColorBrush Opacity="0.0" Color="White" />
+    </Window.Background>
     <Grid>
-        
+        <Label Content="Hello" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="100" />
     </Grid>
 </Window>
+
