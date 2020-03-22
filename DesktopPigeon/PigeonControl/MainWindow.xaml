@@ -5,7 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PigeonControl"
         mc:Ignorable="d"
-        Title="Desktop Pigeon" Height="450" Width="800"
+        Title="Desktop Pigeon"
+        Height="{Binding SystemParameters.PrimaryScreenHeight}" 
+        Width="{Binding SystemParameters.PrimaryScreenWidth}"
         AllowsTransparency="True"
         WindowStyle="None">
     <Window.Background>
