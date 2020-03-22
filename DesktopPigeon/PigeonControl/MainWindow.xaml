@@ -9,7 +9,8 @@
         Height="{Binding SystemParameters.PrimaryScreenHeight}" 
         Width="{Binding SystemParameters.PrimaryScreenWidth}"
         AllowsTransparency="True"
-        WindowStyle="None">
+        WindowStyle="None"
+        Deactivated="Window_Deactivated">
     <Window.Background>
         <SolidColorBrush Opacity="0.0" Color="White" />
     </Window.Background>

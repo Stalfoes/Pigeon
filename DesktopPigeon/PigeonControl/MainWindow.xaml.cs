@@ -21,5 +21,17 @@ namespace PigeonControl {
 		public MainWindow() {
 			InitializeComponent();
 		}
+
+		/**
+		 * <summary>
+		 * Handles the event for when the window is no longer on top.
+		 * </summary>
+		 * <param name="sender">The sender of the event.</param>
+		 * <param name="e">The event arguments.</param>
+		 */
+		private void Window_Deactivated(object sender, EventArgs e) {
+			Window window = (Window) sender;
+			window.Topmost = true;
+		}
 	}
 }
